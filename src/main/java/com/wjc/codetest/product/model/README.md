@@ -6,7 +6,7 @@
 개선안:
 - 대안:
   - 전송 객체는 `dto/request`, `dto/response`로 명확히 분리합니다.
-  - 도메인객체와 DTO 객체는 명쳉 마지막에 Entity, DTO를 기재하여 가독성을 높입니다.
+  - 도메인객체와 DTO 객체는 명칭 마지막에 Entity, DTO를 기재하여 가독성을 높입니다.
     예) `product/domain/ProductEntity`
     `product/dto/request/CreateProductRequestDTO`
     `product/dto/response/ProductListResponseDTO`
