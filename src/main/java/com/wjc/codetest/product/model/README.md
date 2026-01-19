@@ -2,6 +2,7 @@
 원인:
 - 현재 구조가 `model/domain`, `model/request`, `model/response`로 나뉘어 있으나, `model`은 의미 범위가 넓어 Entity/VO/DTO 등 판단 기준이 모호합니다.
 - request/response는 사실상 Controller 경계에서 사용하는 DTO인데, 패키지명만으로 DTO라는 의도가 고정되지 않습니다.
+  
 개선안:
 - 대안:
   - 전송 객체는 `dto/request`, `dto/response`로 명확히 분리합니다.
